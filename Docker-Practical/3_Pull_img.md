@@ -10,7 +10,7 @@ docker pull {imagename}:{Tag}
 
 Here, we pull the alpine Linux, the minimal version of Linux without any binaries and libraries installed.
 ```
-$ docker pull alpine-latest 
+$ docker pull alpine:latest 
 $ docker pull alpine:3.6
 $ docker pull alpine:3.7
 ```
