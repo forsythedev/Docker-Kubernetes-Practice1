@@ -16,14 +16,14 @@ $ docker pull ubuntu-latest
 $ docker run -itd ubuntu-latest
 ```
 
-3. Check the docker image ID
+3. Check the docker container ID
 ```
-$ docker images
+$ docker ps
 ```
 
 4. Attach to the docker container
 ```
-$ docker exec -it {image id} bash
+$ docker exec -it {image id first 3} bash
 ```
 
 ![img](img/Docker_exec.png)
